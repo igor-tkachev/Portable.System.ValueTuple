@@ -1,20 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net47;net461;net45;net40;net35;net30;net20;netcoreapp1.0;netcoreapp1.1;netcoreapp2.0;netstandard1.0;netstandard1.1;netstandard1.2;netstandard1.3;netstandard1.4;netstandard1.5;netstandard1.6;netstandard2.0</TargetFrameworks>
+		<TargetFrameworks>net47;net461;net45;net40;net35;net30;net20;netcoreapp1.0;netcoreapp1.1;netcoreapp2.0;netcoreapp2.2;netstandard1.0;netstandard1.1;netstandard1.2;netstandard1.3;netstandard1.4;netstandard1.5;netstandard1.6;netstandard2.0</TargetFrameworks>
 		<LangVersion>6</LangVersion>
 		<RootNamespace>System</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Authors>Igor Tkachev</Authors>
-		<GenerateDocumentationFile>false</GenerateDocumentationFile>
 		<SignAssembly>True</SignAssembly>
 		<DelaySign>False</DelaySign>
 		<DefineConstants>$(DefineConstants);PUBLIC_API</DefineConstants>
 		<PackageLicenseFile>LICENSE.TXT</PackageLicenseFile>
 		<Description>Provides the System.ValueTuple structs, which implement the underlying types for tuples in C# and Visual Basic.
-Includes old frameworks missing in standard the System.ValueTuple nuget.</Description>
+Includes old frameworks missing in the standard System.ValueTuple nuget.</Description>
 		<PackageProjectUrl>https://github.com/igor-tkachev/Portable.System.ValueTuple</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/igor-tkachev/Portable.System.ValueTuple</RepositoryUrl>
 		<AssemblyOriginatorKeyFile>Portable.System.ValueTuple.snk</AssemblyOriginatorKeyFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.1.1</AssemblyVersion>
+		<FileVersion>1.0.1.1</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>

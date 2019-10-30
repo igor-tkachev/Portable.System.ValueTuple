@@ -1,3 +1,5 @@
+﻿[![NuGet Version and Downloads count](https://buildstats.info/nuget/Portable.System.ValueTuple)](https://www.nuget.org/packages/Portable.System.ValueTuple/)
+
 This is a copy of the System.ValueTuple classes.
 Standard nuget does not support some old frameworks. If you still need it, you can use this one.
 
